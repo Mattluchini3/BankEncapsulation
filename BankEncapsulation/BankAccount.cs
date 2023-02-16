@@ -11,14 +11,13 @@ namespace BankEncapsulation
 
 		public void Deposit(double amount)
 		{
-			balance = amount;
+			balance += amount;
 		}
 
 		public double GetBalance()
 		{
 			return balance;
 		}
-
 	}
 }
 
